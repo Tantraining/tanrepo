@@ -6,6 +6,8 @@ name: Cypress Test Automation
 on:
   push:
     branches: [ "master" ]
+#  schedule:
+#    - cron: 0 5 * * *
 
 jobs:
   build:
